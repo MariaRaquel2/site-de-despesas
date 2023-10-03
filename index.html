@@ -123,7 +123,7 @@
   <div id="despesas-list">
     <h2>Despesas</h2>
     <ul id="lista">
-  <!-- As despesas serão listadas aqui -->
+  <!-- As despesas serão listadas aqui em baixo -->
     </ul>
   </div>
 
@@ -145,7 +145,7 @@
           listItem.innerHTML = `<span>${descricao} - R$ ${valor.toFixed(2)} - ${tipo} - ${data}</span><button class="delete">Excluir</button>`;
           listaDespesas.appendChild(listItem);
 
-          // Limpar campos do formulário
+          // Resetar campos do formulário
           despesaForm.reset();
 
           // Deletar despesas 
