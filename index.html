@@ -148,13 +148,13 @@
           // Limpar campos do formulário
           despesaForm.reset();
 
-          // Adicionar evento para excluir despesa
+          // Deletar despesas 
           const deleteButton = listItem.querySelector(".delete");
           deleteButton.addEventListener("click", function () {
             listItem.remove();
           });
         } else {
-          alert("Preencha todos os campos do formulário.");
+          alert("Preencha todos os campos disponíveis no formulário.");
         }
       });
     });
